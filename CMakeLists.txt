@@ -11,6 +11,6 @@ if(BUILD_TEST)
     enable_testing()
     add_subdirectory(Tests)
 else()
-    add_executable(RobotController Src/main.cpp Src/server.cpp Src/Can.cpp)
+    add_subdirectory(Src)
 endif()
 
